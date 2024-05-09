@@ -2,7 +2,7 @@ import * as z from "zod"
 import {useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
 import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from "../../ui/form.jsx";
-import {Input} from "../../ui/input.jsx";
+import {Input} from "../../ui/input.jsx"; 
 import {Button} from "../../ui/button.jsx";
 import {useNavigate} from "react-router-dom";
 import {
